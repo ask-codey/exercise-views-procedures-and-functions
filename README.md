@@ -32,3 +32,7 @@ Use `CREATE OR ALTER`, so you can run a file again after fixing it. To put North
 - A `CREATE VIEW`, `CREATE PROCEDURE` or `CREATE FUNCTION` must be alone in its batch: end it with `GO`.
 - Run procedures with `EXEC`; use functions inside a `SELECT`. A scalar function needs `dbo.` in front of its name.
 - Some tools, such as sqlcmd, show money values with four decimal places: 17250.0000 is the same answer as the 17250.00 in an **Expect** line.
+
+## Hand it in
+
+When it works, push your solution to a public repo of your own on GitHub, then paste that repo's address into **Submit your exercise** on the lesson page at [ask-codey.com](https://www.ask-codey.com). That's what completes the lesson. The lesson page shows the Git commands, step by step.
