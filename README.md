@@ -1,6 +1,6 @@
-# Practice: Views, Procedures and Functions
+# Exercise: Views, Procedures and Functions
 
-Practice SQL for the lesson **Practice: Views, Procedures and Functions** in the C# Full-Stack Bootcamp on [ask-codey.com](https://www.ask-codey.com).
+Exercise SQL for the lesson **Exercise: Views, Procedures and Functions** in the C# Full-Stack Bootcamp on [ask-codey.com](https://www.ask-codey.com).
 
 Ten problems that create views, stored procedures and functions in the **Northwind** database, then use them. Each file holds one problem as a comment, and what the right answer looks like: write your SQL under it.
 
@@ -15,10 +15,10 @@ Compare your result with the file's **Expect** line. The objects you create stay
 
 ## Check your answers
 
-`ViewsPractice.Tests` runs each of your files against your Northwind database and compares what it returns with the file's **Expect** line. Nothing is changed: every file runs inside a transaction that is rolled back, so the views, procedures and functions you made stay as they are. It needs the .NET SDK, which you installed in the first week. Open a terminal in this folder and run:
+`ViewsExercise.Tests` runs each of your files against your Northwind database and compares what it returns with the file's **Expect** line. Nothing is changed: every file runs inside a transaction that is rolled back, so the views, procedures and functions you made stay as they are. It needs the .NET SDK, which you installed in the first week. Open a terminal in this folder and run:
 
 ```bash
-dotnet test ViewsPractice.Tests
+dotnet test ViewsExercise.Tests
 ```
 
 At first every test fails: that is expected. Each problem you solve turns its test green, and a failing test's message says what the right answer looks like. Your column names and their order don't matter. The tests use the Northwind database on `localhost`; to use another one, set the `NORTHWIND_CONNECTION` environment variable to its connection string.
